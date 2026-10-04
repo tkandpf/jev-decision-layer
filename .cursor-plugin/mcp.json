@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "jev-decision-layer": {
+      "command": "node",
+      "args": ["${CURSOR_PLUGIN_ROOT}/server/index.mjs"],
+      "cwd": "${CURSOR_PLUGIN_ROOT}",
+      "env": {
+        "TYPESAFE_API_KEY": "${TYPESAFE_API_KEY}"
+      }
+    }
+  }
+}

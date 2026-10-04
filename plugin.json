@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jev-decision-layer",
+  "version": "0.1.0",
+  "description": "Jev Decision Layer: advisory routing, research-checking, completion-review and action-guard decisions backed by the TypeSafe System One API (Choice questions). Returns decisions only; never executes anything.",
+  "author": {
+    "name": "Samuel Kim"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/tkandpf/jev-decision-layer",
+  "repository": "https://github.com/tkandpf/jev-decision-layer",
+  "keywords": [
+    "typesafe",
+    "jev",
+    "decision",
+    "routing",
+    "guardrail",
+    "mcp"
+  ]
+}

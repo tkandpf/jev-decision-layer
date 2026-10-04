@@ -1,0 +1,27 @@
+{
+  "name": "jev-decision-layer",
+  "displayName": "Jev Decision Layer",
+  "version": "0.1.0",
+  "description": "Advisory decision checkpoints for agents: route work to a worker, check a research claim, review task completion, and guard proposed actions. Backed by TypeSafe Jev Choice questions. Returns decisions only and never executes anything.",
+  "author": {
+    "name": "Samuel Kim"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/tkandpf/jev-decision-layer",
+  "repository": "https://github.com/tkandpf/jev-decision-layer",
+  "keywords": ["typesafe", "jev", "decision", "routing", "guardrail", "review", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.cursor-plugin/mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "TYPESAFE_API_KEY": {
+        "type": "string",
+        "title": "TypeSafe API key (secret)",
+        "description": "Secret Bearer key for https://api.typesafe.ai/v1/systemone. Set it in Plugins → Configure; never commit it.",
+        "minLength": 1
+      }
+    },
+    "required": ["TYPESAFE_API_KEY"]
+  }
+}
